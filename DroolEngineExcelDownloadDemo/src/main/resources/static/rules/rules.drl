@@ -1,0 +1,23 @@
+package rules
+import com.drool.pojo.Product;
+
+rule "Silver-Rule"
+	when 
+		productObject: Product(productType.equalsIgnoreCase("Silver"))
+	then
+		productObject.setDiscount(5.0);
+	end
+	
+rule "Gold-Rule"
+	when 
+		productObject: Product(productType.equalsIgnoreCase("Gold"))
+	then
+		productObject.setDiscount(10.0);
+	end
+	
+rule "Diamond-Rule"
+	when 
+		productObject: Product(productType.equalsIgnoreCase("Diamond"))
+	then
+		productObject.setDiscount(15.0);
+	end
