@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.drool</groupId>
-	<artifactId>DroolEngineExcelDownloadDemo</artifactId>
+	<artifactId>DroolEngineDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>DroolEngineDemo</name>
@@ -56,11 +56,6 @@
 			<groupId>org.kie</groupId>
 			<artifactId>kie-spring</artifactId>
 			<version>6.0.1.Final</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi</artifactId>
-			<version>3.14</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.poi</groupId>
